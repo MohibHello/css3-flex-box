@@ -1,0 +1,60 @@
+/* override browser margin & padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: purple;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+
+.col-container {
+    background-color: purple;
+    padding: 30px;
+    margin-bottom: 10px;
+    /* setting height for flex-direction:column view */
+    height: 600px; 
+}
+
+.desc {
+font-size: 30px;
+font-weight: bolder;
+}
+
+.flex {
+     /*  flex LTR (left to right) */
+    display: flex;  
+}
+
+.inline-flex {
+    /* acts inline to parent (will not take full width)  */
+    display: inline-flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+
+.flex-wrap-rev {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.item {
+    border: 5px solid white;
+    background-color: yellow;
+    font-size: 60px;
+    padding: 30px;
+    margin: 30px;
+}
