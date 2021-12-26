@@ -4,50 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLEXBOX</title>
-    <link rel="stylesheet" href="css/flex-grow.css">
+    <link rel="stylesheet" href="css/flex-shrink.css">
 </head>
 <body>
-    <div class="desc">GROW:FLEX-GROW TO OCCUPY EXTRA SPACE</div>
-    <div class="details">flex-grow:0 default and not activiated</div>
-    <div class="details">flex-grow:1 will take extra space</div>
+    <div class="desc">Shrink:FLEX-Shrink TO OCCUPY EXTRA SPACE</div>
+    <div class="desc">FLEX-Shrink WORKS ONLY WITH NOWRAP</div>
+    <div class="details">flex-Shrink:0 default and not activiated</div>
+    <div class="details">flex-Shrink:1 will take extra space</div>
 
     <div class="container flex"> <!-- parent element -->
-        <div class="item item1">1 <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
-        <div class="item item2">2  <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
-        <div class="item item3">3  <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
-        <div class="item item4 ">4  <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
+        <div class="item item1">1 <span class="shrink-desc">(Shrink:0)</span></div><!-- child element -->
+        <div class="item item2">2  <span class="shrink-desc">(Shrink:0)</span></div><!-- child element -->
+        <div class="item item3">3  <span class="shrink-desc">(Shrink:0)</span></div><!-- child element -->
+        <div class="item item4 ">4  <span class="shrink-desc">(Shrink:0)</span></div><!-- child element -->
     </div>
-    <div class="details">flex-grow:2 will take extra space</div>
+    <div class="details">flex-Shrink:2 will take shrink extra space</div>
 
     <div class="container flex"> <!-- parent element -->
-        <div class="item item11">1 <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
-        <div class="item item22">2  <span class="grow-desc">(Grow:2)</span></div><!-- child element -->
-        <div class="item item33">3  <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
-        <div class="item item44">4  <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
+        <div class="item item11">1 <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item22">2  <span class="shrink-desc">(Shrink:2)</span></div><!-- child element -->
+        <div class="item item33">3  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item44">4  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
     </div>
-    <div class="details">flex-grow:1 will take extra space</div>
+    <div class="details">flex-Shrink:1 will take extra space</div>
 
     <div class="container flex"> <!-- parent element -->
-        <div class="item item111">1 <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
-        <div class="item item222">2  <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
-        <div class="item item333">3  <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
-        <div class="item item444">4  <span class="grow-desc">(Grow:0)</span></div><!-- child element -->
+        <div class="item item111">1 <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item222">2  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item333">3  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item444">4  <span class="shrink-desc">(Shrink:2)</span></div><!-- child element -->
     </div>
-    <div class="details">flex-grow:1 will equally distributed spaces</div>
+    <div class="details">flex-Shrink:1 will equally shrink items</div>
 
     <div class="container flex"> <!-- parent element -->
-        <div class="item item-equal">1 <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
-        <div class="item item-equal">2  <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
-        <div class="item item-equal">3  <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
-        <div class="item item-equal">4  <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
+        <div class="item item-equal">1 <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item-equal">2  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item-equal">3  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item-equal">4  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
     </div>
-    <div class="details">flex-grow:2 will more space than flex-grow:1 and this will take more space than flex-grow:0</div>
+    <div class="details">flex-Shrink:2 will shrink more than flex-Shrink:1 and so on...</div>
 
     <div class="container flex"> <!-- parent element -->
-        <div class="item item-999">1 <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
-        <div class="item item-888">2  <span class="grow-desc">(Grow:2)</span></div><!-- child element -->
-        <div class="item item-777">3  <span class="grow-desc">(Grow:2)</span></div><!-- child element -->
-        <div class="item item-666">4  <span class="grow-desc">(Grow:1)</span></div><!-- child element -->
+        <div class="item item-999">1 <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
+        <div class="item item-888">2  <span class="shrink-desc">(Shrink:2)</span></div><!-- child element -->
+        <div class="item item-777">3  <span class="shrink-desc">(Shrink:2)</span></div><!-- child element -->
+        <div class="item item-666">4  <span class="shrink-desc">(Shrink:1)</span></div><!-- child element -->
     </div>
 </body>
 </html>
