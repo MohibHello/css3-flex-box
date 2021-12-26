@@ -1,0 +1,80 @@
+/* override browser margin & padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.desc {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 30px;
+}
+
+.details{
+    font: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
+}
+
+.container {
+    background-color: purple;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.flex {
+     /*  flex LTR (left to right) */
+    display: flex;  
+}
+
+.inline-flex {
+    /* acts inline to parent (will not take full width)  */
+    display: inline-flex;
+}
+
+.item {
+    border: 5px solid white;
+    background-color: yellow;
+    font-size: 60px;
+    padding: 30px;
+    margin: 30px;
+}
+.item1 {
+    order: 0;
+}
+.item2 {
+    order: 1;
+}
+.item3 {
+    order: 0;
+}
+.item4 {
+    order: 0;
+}
+
+.item11 {
+    order: 0;
+}
+.item22 {
+    order: 1;
+}
+.item33 {
+    order: 1;
+}
+.item44 {
+    order: 0;
+}
+
+.item111 {
+    order: -2;
+}
+.item222 {
+    order: -1;
+}
+.item333 {
+    order: 1;
+}
+.item444 {
+    order: 0;
+}

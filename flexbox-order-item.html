@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <link rel="stylesheet" href="css/flex-item-order.css">
+</head>
+<body>
+    <div class="desc">ORDER: SET POSITION OF ITEMS</div>
+    <div class="details">sets order based on given integer value</div>
+
+    <div class="container flex"> <!-- parent element -->
+        <div class="item item1">1 (order:0)</div><!-- child element -->
+        <div class="item item2">2 (order:1)</div><!-- child element -->
+        <div class="item item3">3 (order:0)</div><!-- child element -->
+        <div class="item item4">4 (order:0)</div><!-- child element -->
+    </div>
+
+    <div class="container flex"> <!-- parent element -->
+        <div class="item item11">1 (order:0)</div><!-- child element -->
+        <div class="item item22">2 (order:1)</div><!-- child element -->
+        <div class="item item33">3 (order:1)</div><!-- child element -->
+        <div class="item item44">4 (order:0)</div><!-- child element -->
+    </div>
+    <div class="container flex"> <!-- parent element -->
+        <div class="item item111">1 (order:-2)</div><!-- child element -->
+        <div class="item item222">2 (order:-1)</div><!-- child element -->
+        <div class="item item333">3 (order:1)</div><!-- child element -->
+        <div class="item item444">4 (order:0)</div><!-- child element -->
+    </div>
+</body>
+</html>
