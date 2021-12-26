@@ -1,0 +1,52 @@
+/* override browser margin & padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: purple;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.desc {
+    width: 900px;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 30px;
+}
+
+.details{
+    font: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
+}
+
+.flex {
+     /*  flex LTR (left to right) */
+    display: flex;  
+    flex-flow: row wrap;
+}
+
+.item {
+    border: 5px solid white;
+    background-color: yellow;
+    font-size: 60px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.flex-flex1 {
+    /* DEFALUT : grow shrink basis */
+    /* flex: 0 1 auto; */
+}
+
+.flex-flex2 {
+    flex: 1;
+}
+
+.flex-flex3 {
+    /* DEFALUT : shrink grow basis */
+    /* flex:auto; */
+}
