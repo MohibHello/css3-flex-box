@@ -1,0 +1,106 @@
+/* override browser margin & padding */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: purple;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.desc {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 30px;
+}
+
+.details{
+    font: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1%;
+}
+
+.flex {
+     /*  flex LTR (left to right) */
+    display: flex;  
+}
+
+.inline-flex {
+    /* acts inline to parent (will not take full width)  */
+    display: inline-flex;
+}
+
+.item {
+    border: 5px solid white;
+    background-color: yellow;
+    font-size: 60px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.grow-desc {
+    font-size: small;
+    font-weight: bolder;
+}
+
+.item1 {
+   flex-grow: 0;
+ }
+ .item2 {
+    flex-grow: 0;
+ }
+ .item3 {
+    flex-grow: 0;
+ }
+ .item4 {
+    flex-grow: 1;
+ }
+
+ .item11 {
+   flex-grow: 0;
+}
+.item22 {
+   flex-grow: 2;
+}
+.item33 {
+   flex-grow: 0;
+}
+.item44 {
+   flex-grow: 0;
+}
+
+.item111 {
+   flex-grow: 0;
+}
+.item222 {
+   flex-grow: 0;
+}
+.item333 {
+   flex-grow: 1;
+}
+.item444 {
+   flex-grow: 0;
+}
+
+.item-equal{
+    flex-grow: 1;
+}
+
+.item-666 {
+    flex-grow: 1;
+}
+
+.item-777 {
+    flex-grow: 2;
+}
+
+.item-888{
+    flex-grow: 2;
+}
+
+.item-999{
+    flex-grow: 1;
+}
