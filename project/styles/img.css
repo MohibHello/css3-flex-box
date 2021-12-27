@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: purple;
+}
+
+.heading {
+    text-align: center;
+    margin:5%;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    /* 3 columns each will take 33.33% of width and flex */
+    flex:33%;
+    max-width: 33%;
+}
+
+.img-size {
+    width: 100%;
+    vertical-align: middle;
+    margin: 1%;
+}
+
+@media screen and (max-width:800px) {
+    /* 49.5% ->2 column 1% is taken by margin */
+    .column {
+        flex: 49.5%;
+        max-width: 49.5%;
+    }
+}
+
+@media screen and (max-width:450px) {
+     /* 99% ->1 column 1% is taken by margin */
+    .column {
+        flex: 99%;
+        max-width: 99%;
+    }
+}
