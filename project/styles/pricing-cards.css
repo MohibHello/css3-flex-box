@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #34495e;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+#pricing {
+    margin: 2%;
+}
+
+.pricing-box {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.pricing-cards {
+    text-align: center;
+    margin: 2%;
+    box-shadow: 1px 0 10px 15px rgba(0, 0, 0, .5);
+}
+
+.pricing-cards:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 30px;
+    padding: 2%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+h3.package-01 {
+background-color: #cc9900;
+}
+h3.package-02 {
+    background-color: #ff00ff;
+}
+h3.package-03 {
+    background-color:#cc0000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 2%;
+    margin: 0;
+}
+
+li {
+    padding: 20px 15px;
+    font-size: 22px;
+}
+
+small {
+    font-size: 26px;
+}
+
+li h4 {
+    font-size: 46px;
+}
+
+.price-btn-01,.price-btn-02,.price-btn-03 {
+   display: block;
+   margin: 0 auto;
+   width: 80%;
+   padding: 15px;
+   border-radius: 8px;
+   text-decoration: none;
+   color: white; 
+}
+
+.price-btn-01 {
+    background-color: #cc9900;
+    }
+
+.price-btn-02 {
+        background-color: #ff00ff;
+    }
+
+.price-btn-03 {
+        background-color:#cc0000;
+    }
+
+
+    @media screen and (max-width:600px) {
+
+        /* each card will take 100% width of screen */
+        .pricing-cards {
+          flex: 100%;
+          max-width: 100%;
+        }
+
+        a {
+            font-size: 18px;
+        }
+   }
